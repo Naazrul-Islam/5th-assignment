@@ -19,7 +19,7 @@
             
         <div class="flex gap-2 md:gap-5">
            <div class="bg-[#41ff6b1a] px-6 md:px-10 rounded-[30px] md:rounded-[50px] py-2.5 md:py-3.5 flex justify-center items-center">
-            <p class="flex items-center"><span class="mr-2">0</span>❤</p>
+            <p class="flex items-center"><span class="mr-2" id="heart-count">0</span>❤</p>
            </div>
            <div class="bg-[#41ff6b1a] px-6 md:px-10 rounded-[30px] md:rounded-[50px] py-2.5 md:py-3.5 flex justify-center items-center">
             <p class="flex items-center"><span class="mr-2">100</span>⭐</p>
@@ -57,7 +57,7 @@
                 <div class="max-w-[60px] bg-[#ffe3e2] p-3.5 rounded-2xl">
                     <img src="./assets/emergency.png" alt="" class="max-h-8 max-w-8">
                 </div>
-                <span>❤</span>
+                <span class="heart-shape">❤</span>
             </div>
             <div>
                 <h1 class="text-2xl font-bold">National Emergency Number</h1>
@@ -70,63 +70,66 @@
                 </div>
             </div>
             <div class="flex justify-between i gap-1">
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300"><i class="fa-solid fa-copy"></i>Copy</button>
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white"><i class="fa-solid fa-phone-flip"></i>Call</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300 copy-btn"><i class="fa-solid fa-copy"></i>Copy</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white call-btn"><i class="fa-solid fa-phone-flip"></i>Call</button>
             </div>
         </div>
+
         <div class="bg-white shadow-md rounded-xl p-8 gap-4 flex flex-col">
 
             <div class="flex justify-between items-center">
                 <div class="max-w-[60px] bg-[#ffe3e2] p-3.5 rounded-2xl">
-                    <img src="./assets/police.png" alt="" class="max-h-8 max-w-8">
+                    <img src="./assets/emergency.png" alt="" class="max-h-8 max-w-8">
                 </div>
-                <span>❤</span>
+                <span class="heart-shape">❤</span>
             </div>
             <div>
-                <h1 class="text-2xl font-bold">Police Helpline Number</h1>
-                <p class="text-gray-500">Police</p>
+                <h1 class="text-2xl font-bold">National Emergency Number</h1>
+                <p class="text-gray-500">National Emergency</p>
             </div>
             <div>
                 <h1 class="text-2xl font-bold">999</h1>
                 <div class="bg-gray-200 max-w-[80px] px-4 py-1.5 text-center rounded-2xl">
-                    <p>Police</p>
+                    <p>All</p>
                 </div>
             </div>
             <div class="flex justify-between i gap-1">
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300"><i class="fa-solid fa-copy"></i>Copy</button>
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white"><i class="fa-solid fa-phone-flip"></i>Call</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300 copy-btn"><i class="fa-solid fa-copy"></i>Copy</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white call-btn"><i class="fa-solid fa-phone-flip"></i>Call</button>
             </div>
         </div>
+
         <div class="bg-white shadow-md rounded-xl p-8 gap-4 flex flex-col">
 
             <div class="flex justify-between items-center">
                 <div class="max-w-[60px] bg-[#ffe3e2] p-3.5 rounded-2xl">
-                    <img src="./assets/fire-service.png" alt="" class="max-h-8 max-w-8">
+                    <img src="./assets/emergency.png" alt="" class="max-h-8 max-w-8">
                 </div>
-                <span>❤</span>
+                <span class="heart-shape">❤</span>
             </div>
             <div>
-                <h1 class="text-2xl font-bold">Fire Service Number</h1>
-                <p class="text-gray-500">Fire Service</p>
+                <h1 class="text-2xl font-bold">National Emergency Number</h1>
+                <p class="text-gray-500">National Emergency</p>
             </div>
             <div>
                 <h1 class="text-2xl font-bold">999</h1>
                 <div class="bg-gray-200 max-w-[80px] px-4 py-1.5 text-center rounded-2xl">
-                    <p>Fire</p>
+                    <p>All</p>
                 </div>
             </div>
             <div class="flex justify-between i gap-1">
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300"><i class="fa-solid fa-copy"></i>Copy</button>
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white"><i class="fa-solid fa-phone-flip"></i>Call</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300 copy-btn"><i class="fa-solid fa-copy"></i>Copy</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white call-btn"><i class="fa-solid fa-phone-flip"></i>Call</button>
             </div>
         </div>
+     
         <div class="bg-white shadow-md rounded-xl p-8 gap-4 flex flex-col">
 
             <div class="flex justify-between items-center">
                 <div class="max-w-[60px] bg-[#ffe3e2] p-3.5 rounded-2xl">
                     <img src="./assets/ambulance.png" alt="" class="max-h-8 max-w-8">
                 </div>
-                <span>❤</span>
+                <span class="heart-shape">❤</span>
             </div>
             <div>
                 <h1 class="text-2xl font-bold">Ambulance Service</h1>
@@ -139,8 +142,8 @@
                 </div>
             </div>
             <div class="flex justify-between i gap-1">
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300"><i class="fa-solid fa-copy"></i>Copy</button>
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white"><i class="fa-solid fa-phone-flip"></i>Call</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300 copy-btn"><i class="fa-solid fa-copy"></i>Copy</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white call-btn"><i class="fa-solid fa-phone-flip"></i>Call</button>
             </div>
         </div>
         <div class="bg-white shadow-md rounded-xl p-8 gap-4 flex flex-col">
@@ -149,7 +152,7 @@
                 <div class="max-w-[60px] bg-[#ffe3e2] p-3.5 rounded-2xl">
                     <img src="./assets/emergency.png" alt="" class="max-h-8 max-w-8">
                 </div>
-                <span>❤</span>
+                <span class="heart-shape">❤</span>
             </div>
             <div>
                 <h1 class="text-2xl font-bold">Women & Child Helpline</h1>
@@ -162,8 +165,8 @@
                 </div>
             </div>
             <div class="flex justify-between i gap-1">
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300"><i class="fa-solid fa-copy"></i>Copy</button>
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white"><i class="fa-solid fa-phone-flip"></i>Call</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300 copy-btn"><i class="fa-solid fa-copy"></i>Copy</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white call-btn"><i class="fa-solid fa-phone-flip"></i>Call</button>
             </div>
         </div>
         <div class="bg-white shadow-md rounded-xl p-8 gap-4 flex flex-col">
@@ -172,7 +175,7 @@
                 <div class="max-w-[60px] bg-[#ffe3e2] p-3.5 rounded-2xl">
                     <img src="./assets/emergency.png" alt="" class="max-h-8 max-w-8">
                 </div>
-                <span>❤</span>
+                <span class="heart-shape">❤</span>
             </div>
             <div>
                 <h1 class="text-2xl font-bold">Anti-Corruption Helpline</h1>
@@ -185,8 +188,8 @@
                 </div>
             </div>
             <div class="flex justify-between i gap-1">
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300"><i class="fa-solid fa-copy"></i>Copy</button>
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white"><i class="fa-solid fa-phone-flip"></i>Call</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300 copy-btn"><i class="fa-solid fa-copy"></i>Copy</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white call-btn"><i class="fa-solid fa-phone-flip"></i>Call</button>
             </div>
         </div>
         <div class="bg-white shadow-md rounded-xl p-8 gap-4 flex flex-col">
@@ -195,7 +198,7 @@
                 <div class="max-w-[60px] bg-[#ffe3e2] p-3.5 rounded-2xl">
                     <img src="./assets/emergency.png" alt="" class="max-h-8 max-w-8">
                 </div>
-                <span>❤</span>
+                <span class="heart-shape">❤</span>
             </div>
             <div>
                 <h1 class="text-2xl font-bold">Electricity Helpline</h1>
@@ -208,8 +211,8 @@
                 </div>
             </div>
             <div class="flex justify-between i gap-1">
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300"><i class="fa-solid fa-copy"></i>Copy</button>
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white"><i class="fa-solid fa-phone-flip"></i>Call</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300 copy-btn"><i class="fa-solid fa-copy"></i>Copy</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white call-btn"><i class="fa-solid fa-phone-flip"></i>Call</button>
             </div>
         </div>
         <div class="bg-white shadow-md rounded-xl p-8 gap-4 flex flex-col">
@@ -218,7 +221,7 @@
                 <div class="max-w-[60px] bg-[#ffe3e2] p-3.5 rounded-2xl">
                     <img src="./assets/emergency.png" alt="" class="max-h-8 max-w-8">
                 </div>
-                <span>❤</span>
+                <span class="heart-shape">❤</span>
             </div>
             <div>
                 <h1 class="text-2xl font-bold">Brac Helpline</h1>
@@ -231,9 +234,11 @@
                 </div>
             </div>
             <div class="flex justify-between i gap-1">
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300"><i class="fa-solid fa-copy"></i>Copy</button>
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white"><i class="fa-solid fa-phone-flip"></i>Call</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300 copy-btn"><i class="fa-solid fa-copy"></i>Copy</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white call-btn"><i class="fa-solid fa-phone-flip"></i>Call</button>
             </div>
+            
+
         </div>
         <div class="bg-white shadow-md rounded-xl p-8 gap-4 flex flex-col">
 
@@ -241,23 +246,26 @@
                 <div class="max-w-[60px] bg-[#ffe3e2] p-3.5 rounded-2xl">
                     <img src="./assets/emergency.png" alt="" class="max-h-8 max-w-8">
                 </div>
-                <span>❤</span>
+                <span class="heart-shape">❤</span>
             </div>
             <div>
-                <h1 class="text-2xl font-bold">Bangladesh Railway Helpline </h1>
-                <p class="text-gray-500">Bangladesh Railway</p>
+                <h1 class="text-2xl font-bold">Brac Helpline</h1>
+                <p class="text-gray-500">Brac</p>
             </div>
             <div>
-                <h1 class="text-2xl font-bold">163</h1>
+                <h1 class="text-2xl font-bold">16445</h1>
                 <div class="bg-gray-200 max-w-[80px] px-4 py-1.5 text-center rounded-2xl">
-                    <p>Travel</p>
+                    <p>NGO</p>
                 </div>
             </div>
             <div class="flex justify-between i gap-1">
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300"><i class="fa-solid fa-copy"></i>Copy</button>
-                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white"><i class="fa-solid fa-phone-flip"></i>Call</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center border border-gray-300 copy-btn"><i class="fa-solid fa-copy"></i>Copy</button>
+                <button class="py-1.5 px-[35.5px] rounded-[8px] flex justify-center items-center bg-green-500 text-white call-btn"><i class="fa-solid fa-phone-flip"></i>Call</button>
             </div>
+            
+
         </div>
+        
        </section>
         
                 
@@ -272,5 +280,6 @@
 
 
      </main>
+     <script src="./js/first.js"></script>
 </body>
 </html>

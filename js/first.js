@@ -1,10 +1,10 @@
 let hearts = document.getElementsByClassName("heart-shape");
 for(heart of hearts){
     heart.addEventListener("click", function(){
-        let countSpan = document.getElementById("heart-count");
-        let count = parseInt(countSpan.innerText);
+        let countTotal = document.getElementById("heart-count");
+        let count = parseInt(countTotal.innerText);
         count++;
-        countSpan.innerText = count;
+        countTotal.innerText = count;
     });
 }
 // **************call btn****************
@@ -31,13 +31,13 @@ for (let callbtn of callbtns) {
 
 
 
-
         let now = new Date();
         let time = now.toLocaleTimeString();
         let historyContainer = document.getElementById("history");
         let newP = document.createElement("div");
         newP.className = "call-history-entry flex justify-between items-center bg-[#FAFAFA] rounded-2xl p-[15px] mt-2 gap-3 max-h-83px";
-        newP.innerHTML = `<div>${serviceNumber} <br> ${phoneNumber}</div> <div>${time}</div>`;
+        newP.innerHTML = `<div>${serviceNumber} <br> ${phoneNumber}</div>
+         <div>${time}</div>`;
         historyContainer.appendChild(newP);
     });
 }
